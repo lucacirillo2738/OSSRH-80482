@@ -7,6 +7,7 @@
   <version>1.0.0</version>
   <packaging>maven-plugin</packaging>
   <name>LucasJson</name>
+  <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
   <description>Json serializer/deserializer without reflection. Autogenerate toJson() or toObject() methods at compile time for every classes annotated with Serializer Deserializer</description>
   <developers>
     <developer>
@@ -36,6 +37,7 @@
   <scm>
     <connection>scm:git:https://${repo.usr}:${repo.pwd}@github.com/lucacirillo2738/OSSRH-80482.git</connection>
     <developerConnection>scm:git:https://${repo.usr}:${repo.pwd}@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
+    <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
     <tag>HEAD</tag>
   </scm>
 
