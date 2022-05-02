@@ -4,7 +4,7 @@
 
   <groupId>io.github.lucacirillo2738</groupId>
   <artifactId>json</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
   <developers>
     <developer>
@@ -26,10 +26,10 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:https://github.com/lucacirillo2738/OSSRH-80482.git</connection>
-    <developerConnection>scm:git:https://${repo.usr}:${repo.pwd}@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
-    <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
-    <tag>json-1.0.0</tag>
+    <connection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</connection>
+    <developerConnection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
+    <url>https://github.com/lucacirillo2738/OSSRH-80482r</url>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
