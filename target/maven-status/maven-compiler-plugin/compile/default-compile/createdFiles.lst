@@ -14,5 +14,4 @@ com/lucas/json/deserialize/Deserialize$2.class
 com/lucas/json/deserialize/Deserialize$3.class
 com/lucas/json/deserialize/SkipDeserialization.class
 com/lucas/json/serialize/JsonSerializable.class
-HelpMojo.class
 com/lucas/json/deserialize/JsonDeserializable.class

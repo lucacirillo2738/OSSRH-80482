@@ -1,5 +1,5 @@
-package com.lucas.json.serialize;
 
+package com.lucas.json.serialize;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
