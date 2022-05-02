@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.apache.maven.resolver</groupId>
+  <artifactId>maven-resolver</artifactId>
+  <versioning>
+    <versions>
+      <version>1.4.1</version>
+    </versions>
+    <lastUpdated>20220502103921</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>com.fasterxml.jackson</groupId>
+  <artifactId>jackson-base</artifactId>
+  <versioning>
+    <versions>
+      <version>2.12.4</version>
+    </versions>
+    <lastUpdated>20220502103921</lastUpdated>
+  </versioning>
+</metadata>
