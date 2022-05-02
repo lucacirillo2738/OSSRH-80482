@@ -25,6 +25,13 @@
     </repository>
   </distributionManagement>
 
+  <scm>
+    <connection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</connection>
+    <developerConnection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
+    <url>https://github.com/lucacirillo2738/OSSRH-80482r</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
