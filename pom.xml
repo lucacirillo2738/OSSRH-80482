@@ -26,9 +26,9 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</connection>
-    <developerConnection>scm:git:git@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
-    <url>https://github.com/lucacirillo2738/OSSRH-80482r</url>
+    <connection>scm:git:https://${repo.usr}:${repo.pwd}@github.com/lucacirillo2738/OSSRH-80482.git</connection>
+    <developerConnection>scm:git:https://${repo.usr}:${repo.pwd}@github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
+    <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
     <tag>HEAD</tag>
   </scm>
 
