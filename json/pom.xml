@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
-  <groupId>io.github.lucacirillo2738</groupId>
+  <parent>
+    <groupId>io.github.lucacirillo2738</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
   <artifactId>json</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>maven-plugin</packaging>
   <name>LucasJson</name>
-  <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
   <description>Json serializer/deserializer without reflection. Autogenerate toJson() or toObject() methods at compile time for every classes annotated with Serializer Deserializer</description>
-  <developers>
-    <developer>
-      <id>lucas2738</id>
-      <name>Luca Cirillo</name>
-      <email>luca.cirillo.2738@gmail.com</email>
-    </developer>
-  </developers>
-  <licenses>
-    <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
-  <scm>
-    <connection>scm:git:https://github.com/lucacirillo2738/OSSRH-80482.git</connection>
-    <developerConnection>scm:git:https://github.com/lucacirillo2738/OSSRH-80482.git</developerConnection>
-    <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
-    <tag>HEAD</tag>
-  </scm>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
