@@ -5,4 +5,5 @@
 *.iws
 *.ipr
 /json/target/
+/querydsl/target/
 /parent/target/
