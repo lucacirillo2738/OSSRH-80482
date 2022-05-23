@@ -80,7 +80,7 @@ public class Deserialize extends AbstractJson {
         try {
             System.out.println(c);
             CtMethod method1 = CtNewMethod.make("public static " + c.getName() + " toObject(" + JsonFactory.class.getName() + " jsonFactory, java.lang.String json) throws " + Exception.class.getName() + "{" +
-                    "json = json.replaceAll(\" \", \"\").replaceAll(\"\\n\", \"\").replaceAll(\"\\t\", \"\").replaceAll(\"\\r\", \"\");"+
+                    "json = json.replaceAll(\"\\\\\\\"([a-zA-Z0-9])*\\\\\\\":\\\\[\\\\]\", \"\").replaceAll(\" \", \"\").replaceAll(\"\\n\", \"\").replaceAll(\"\\t\", \"\").replaceAll(\"\\r\", \"\").replaceAll(\",,\", \",\").replaceAll(\",}\", \"}\").replaceAll(\"\\\\{\\\\,\", \"{\");"+
                     JsonParser.class.getName() + " jParser = jsonFactory.createParser(json);" +
                     "return toObject(jParser);" +
                     "}", ctClass);
@@ -92,7 +92,7 @@ public class Deserialize extends AbstractJson {
         }
         try {
             CtMethod method2 = CtNewMethod.make("public static " + c.getName() + " toObject(" + String.class.getName() + " json) throws " + Exception.class.getName() + "{" +
-                    "json = json.replaceAll(\" \", \"\").replaceAll(\"\\n\", \"\").replaceAll(\"\\t\", \"\").replaceAll(\"\\r\", \"\");"+
+                    "json = json.replaceAll(\"\\\\\\\"([a-zA-Z0-9])*\\\\\\\":\\\\[\\\\]\", \"\").replaceAll(\" \", \"\").replaceAll(\"\\n\", \"\").replaceAll(\"\\t\", \"\").replaceAll(\"\\r\", \"\").replaceAll(\",,\", \",\").replaceAll(\",}\", \"}\").replaceAll(\"\\\\{\\\\,\", \"{\");"+
                     JsonFactory.class.getName() + " jsonFactory = new com.fasterxml.jackson.core.JsonFactory();" +
                     JsonParser.class.getName() + " jParser = jsonFactory.createParser(json);" +
                     "return toObject(jsonFactory, json);" +
@@ -309,7 +309,10 @@ public class Deserialize extends AbstractJson {
             if (c instanceof Class && (Number.class.isAssignableFrom((Class) c) || String.class.isAssignableFrom((Class) c) || Boolean.class.isAssignableFrom((Class) c))) {
                 builder.append("jParser.nextToken();");
             }
-            builder.append("while (jParser.nextToken() != " + JsonToken.class.getName() + ".END_ARRAY && jParser.getCurrentToken() != null) {");
+            builder.append(JsonToken.class.getName()+" token = null;");
+            builder.append("while (jParser.getCurrentToken() != " + JsonToken.class.getName() + ".END_ARRAY && jParser.getCurrentToken() != null) {");
+            builder.append("token = jParser.nextToken();");
+            builder.append("if(token == " + JsonToken.class.getName() + ".END_ARRAY){break;}");
 
             if (c instanceof Class && (Integer.class.isAssignableFrom((Class) c)) || int.class.isAssignableFrom((Class) c)) {
                 builder.append(listToAdd + ".add(new " + Integer.class.getName() + "(jParser.getIntValue()));\n");
