@@ -11,6 +11,7 @@
     <artifactId>querydsl</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+    <name>LucasQuerydsl</name>
     <description>Repo for querydsl</description>
 
     <properties>
