@@ -4,7 +4,7 @@
 
   <groupId>io.github.lucacirillo2738</groupId>
   <artifactId>json</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <packaging>maven-plugin</packaging>
   <name>LucasJson</name>
   <url>https://github.com/lucacirillo2738/OSSRH-80482</url>
