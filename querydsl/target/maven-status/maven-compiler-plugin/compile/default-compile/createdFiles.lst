@@ -1,0 +1,5 @@
+it/sisal/digital/phoenix/utils/querydsl/FieldHandler.class
+it/sisal/digital/phoenix/utils/querydsl/QueryDslJoin.class
+it/sisal/digital/phoenix/utils/querydsl/AbstractQueryDslRepository.class
+it/sisal/digital/phoenix/utils/querydsl/SisalRepository.class
+it/sisal/digital/phoenix/utils/querydsl/QueryDslEntity.class

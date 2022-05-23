@@ -1,0 +1,14 @@
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/JsonTimeType.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/serialize/Serializer.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/serialize/Serialize.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/serialize/JsonSerializable.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/serialize/JsonOrder.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/JsonDeserializable.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/Deserializer.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/AbstractJson.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/serialize/SkipSerialization.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/TimeFormat.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/target/generated-sources/plugin/HelpMojo.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/SkipDeserialization.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/exceptions/ParsingException.java
+/home/lucas/Dev/Lucas/mavenCentral/OSSRH-80482/json/src/main/java/com/lucas/json/deserialize/Deserialize.java
