@@ -1,3 +1,4 @@
+package com.lucas.json.serialize;
 
 
 import org.apache.maven.plugin.AbstractMojo;

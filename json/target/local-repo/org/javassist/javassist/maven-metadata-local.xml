@@ -1,0 +1,10 @@
+<metadata>
+  <groupId>org.javassist</groupId>
+  <artifactId>javassist</artifactId>
+  <versioning>
+    <versions>
+      <version>3.28.0-GA</version>
+    </versions>
+    <lastUpdated>20220523152826</lastUpdated>
+  </versioning>
+</metadata>

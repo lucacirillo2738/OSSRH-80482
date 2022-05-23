@@ -7,7 +7,7 @@
     <version>1.0.0</version>
   </parent>
   <artifactId>json</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.3</version>
   <packaging>maven-plugin</packaging>
   <name>LucasJson</name>
   <description>Json serializer/deserializer without reflection. Autogenerate toJson() or toObject() methods at compile time for every classes annotated with Serializer Deserializer</description>
@@ -16,6 +16,10 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
+  
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
 
   <dependencies>
     <dependency>
