@@ -9,6 +9,7 @@
     	<module>parent</module>
     	<module>json</module>
         <module>querydsl</module>
+        <module>security</module>
     </modules>
 </project>
  

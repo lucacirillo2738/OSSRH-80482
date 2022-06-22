@@ -1,7 +1,7 @@
-package it.sisal.digital.phoenix.utils.security.signature.aop;
+package com.lucas.security.signature.aop;
 
 
-import it.sisal.digital.phoenix.utils.security.signature.model.Secured;
+import com.lucas.security.signature.model.Secured;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

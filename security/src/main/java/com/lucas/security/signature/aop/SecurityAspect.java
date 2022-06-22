@@ -1,7 +1,7 @@
-package it.sisal.digital.phoenix.utils.security.signature.aop;
+package com.lucas.security.signature.aop;
 
-import it.sisal.digital.phoenix.utils.security.signature.service.SecurityService;
-import it.sisal.digital.phoenix.utils.security.signature.model.Secured;
+import com.lucas.security.signature.model.Secured;
+import com.lucas.security.signature.service.SecurityService;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -26,7 +26,7 @@ public class SecurityAspect {
      * @see Secured
      * @throws SecurityException
      * */
-    @Before("@annotation(it.sisal.digital.phoenix.utils.security.signature.aop.Sign)")
+    @Before("@annotation(com.lucas.security.signature.aop.Sign)")
     public void sign(JoinPoint joinPoint) {
         Sign certAnnotation = ((MethodSignature) joinPoint.getSignature()).getMethod().getAnnotation(Sign.class);
 
@@ -58,7 +58,7 @@ public class SecurityAspect {
      * @see Secured
      * @throws SecurityException
      * */
-    @Before("@annotation(it.sisal.digital.phoenix.utils.security.signature.aop.CheckSignature)")
+    @Before("@annotation(com.lucas.security.signature.aop.CheckSignature)")
     public void checkSignature(JoinPoint joinPoint) {
         CheckSignature certAnnotation = ((MethodSignature) joinPoint.getSignature()).getMethod().getAnnotation(CheckSignature.class);
 
@@ -95,7 +95,7 @@ public class SecurityAspect {
      * @see Secured
      * @throws SecurityException
      * */
-    @Before("@annotation(it.sisal.digital.phoenix.utils.security.signature.aop.Encrypt)")
+    @Before("@annotation(com.lucas.security.signature.aop.Encrypt)")
     public void encrypt(JoinPoint joinPoint) {
         Encrypt certAnnotation = ((MethodSignature) joinPoint.getSignature()).getMethod().getAnnotation(Encrypt.class);
 
@@ -129,7 +129,7 @@ public class SecurityAspect {
      * @see Secured
      * @throws SecurityException
      * */
-    @Before("@annotation(it.sisal.digital.phoenix.utils.security.signature.aop.Decrypt)")
+    @Before("@annotation(com.lucas.security.signature.aop.Decrypt)")
     public void dencrypt(JoinPoint joinPoint) {
         Decrypt certAnnotation = ((MethodSignature) joinPoint.getSignature()).getMethod().getAnnotation(Decrypt.class);
 

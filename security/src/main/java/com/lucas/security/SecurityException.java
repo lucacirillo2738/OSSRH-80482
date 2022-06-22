@@ -1,4 +1,4 @@
-package it.sisal.digital.phoenix.utils.security;
+package com.lucas.security;
 
 public class SecurityException extends RuntimeException {
     private static final long serialVersionUID = 930611243648914240L;

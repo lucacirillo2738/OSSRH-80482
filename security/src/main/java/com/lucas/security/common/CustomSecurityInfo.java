@@ -1,4 +1,4 @@
-package it.sisal.digital.phoenix.utils.security.common;
+package com.lucas.security.common;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,6 +1,6 @@
-package it.sisal.digital.phoenix.utils.security.signature.model;
+package com.lucas.security.signature.model;
 
-import it.sisal.digital.phoenix.utils.security.signature.aop.*;
+import com.lucas.security.signature.aop.*;
 
 /** A Pojo class used by SecurityAspect to read property and set result of a specific aspect operation.
  * A parameter of this type (or its subclass) must be provided in the signature of the method annotated with

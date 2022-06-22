@@ -1,4 +1,4 @@
-package it.sisal.digital.phoenix.utils.security.util;
+package com.lucas.security.util;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;

@@ -1,9 +1,9 @@
-package it.sisal.digital.phoenix.utils.security.signature.service;
+package com.lucas.security.signature.service;
 
-import it.sisal.digital.phoenix.utils.security.SecurityException;
-import it.sisal.digital.phoenix.utils.security.signature.model.ClientsModel;
-import it.sisal.digital.phoenix.utils.security.signature.model.KeyStoreModel;
-import it.sisal.digital.phoenix.utils.security.util.CipherUtils;
+import com.lucas.security.SecurityException;
+import com.lucas.security.signature.model.ClientsModel;
+import com.lucas.security.signature.model.KeyStoreModel;
+import com.lucas.security.util.CipherUtils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

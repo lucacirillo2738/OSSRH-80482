@@ -1,4 +1,4 @@
-package it.sisal.digital.phoenix.utils.security.signature.model;
+package com.lucas.security.signature.model;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
