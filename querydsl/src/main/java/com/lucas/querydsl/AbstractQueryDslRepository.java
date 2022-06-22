@@ -1,4 +1,4 @@
-package it.sisal.digital.phoenix.utils.querydsl;
+package com.lucas.querydsl;
 
 import com.querydsl.core.NonUniqueResultException;
 import com.querydsl.core.Tuple;
