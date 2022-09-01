@@ -10,6 +10,7 @@
     	<module>json</module>
         <module>querydsl</module>
         <module>security</module>
+        <module>scheduler</module>
     </modules>
 </project>
  
