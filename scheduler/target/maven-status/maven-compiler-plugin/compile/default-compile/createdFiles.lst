@@ -1,5 +1,0 @@
-com\lucas\scheduler\conf\SchedulerConfig.class
-com\lucas\scheduler\job\JobFactory.class
-META-INF\spring-configuration-metadata.json
-com\lucas\scheduler\job\AbstractJob.class
-com\lucas\scheduler\JobScheduler.class
