@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 @Configuration
-@ConfigurationProperties(prefix = "com.igt.scheduler")
+@ConfigurationProperties(prefix = "com.lucas.scheduler")
 @Data
 @Primary
 public class SchedulerConfig {
