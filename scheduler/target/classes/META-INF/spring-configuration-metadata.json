@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "com.igt.scheduler",
+      "type": "com.lucas.scheduler.conf.SchedulerConfig",
+      "sourceType": "com.lucas.scheduler.conf.SchedulerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.igt.scheduler.pool",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lucas.scheduler.conf.SchedulerConfig",
+      "defaultValue": 1
+    }
+  ],
+  "hints": []
+}
