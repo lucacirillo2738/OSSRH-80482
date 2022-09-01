@@ -21,19 +21,19 @@ import java.util.function.Supplier;
  * The two KeyStoreModel are generate from properties that must be defined in application.yml as follow
  *   cert:
  *     mine:
- *       certPath: <path-to-keystore.jks>
- *       alias: "<alias>"
- *       pwd: "<password>"
- *       ok-password: "<private-key-pasword>"
+ *       certPath: "[path-to-keystore.jks]"
+ *       alias: "[alias]"
+ *       pwd: "[password]"
+ *       ok-password: "[private-key-pasword]"
  *     clients:
- *       <client-name>:
- *          certPath: <path-to-keystore.jks>
- *          alias: "<alias>"
- *          pwd: "<alias-pasword>"
- *       <client-name>:
- *          certPath: <path-to-keystore.jks>
- *          alias: "<alias>"
- *          pwd: "<alias-pasword>"
+ *       [client-name]:
+ *          certPath: "[path-to-keystore.jks]"
+ *          alias: "[alias]"
+ *          pwd: "[alias-pasword]"
+ *       [client-name]:
+ *          certPath: "[path-to-keystore.jks]"
+ *          alias: "[alias]"
+ *          pwd: "[alias-pasword]"
  * @see KeyStoreModel
  * */
 @Component("SisalSignature")
