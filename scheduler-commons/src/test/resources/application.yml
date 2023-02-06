@@ -1,0 +1,16 @@
+spring:
+  h2:
+    console.enabled: true
+    batch:
+      jdbc:
+        initialize-schema: never
+com:
+  igt:
+    scheduler:
+      pool: 10
+      datasource:
+        driver-class-name: "org.postgresql.Driver"
+        url: "jdbc:postgresql://localhost:5432/postgres"
+        username: "admin"
+        password: "admin"
+        recreate-schema: true

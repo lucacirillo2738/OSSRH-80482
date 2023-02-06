@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "com.igt.scheduler",
+      "type": "com.igt.eInstants.scheduler.conf.SchedulerConfig",
+      "sourceType": "com.igt.eInstants.scheduler.conf.SchedulerConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource",
+      "type": "com.igt.eInstants.scheduler.conf.DataSourceConfig",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.igt.scheduler.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.h2-schema-script",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.postgresql-drop-schema-script",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.postgresql-schema-script",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.recreate-schema",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "com.igt.scheduler.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.igt.eInstants.scheduler.conf.DataSourceConfig"
+    },
+    {
+      "name": "com.igt.scheduler.pool",
+      "type": "java.lang.Integer",
+      "sourceType": "com.igt.eInstants.scheduler.conf.SchedulerConfig",
+      "defaultValue": 1
+    }
+  ],
+  "hints": []
+}
