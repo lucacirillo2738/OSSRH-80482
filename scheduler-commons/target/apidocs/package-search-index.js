@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.igt.eInstants.scheduler"},{"l":"com.igt.eInstants.scheduler.conf"},{"l":"com.igt.eInstants.scheduler.job"}]

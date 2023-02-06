@@ -1,9 +1,0 @@
-com\igt\eInstants\scheduler\JobScheduler.class
-com\igt\eInstants\scheduler\job\JobInfo.class
-com\igt\eInstants\scheduler\conf\BatchConfig.class
-com\igt\eInstants\scheduler\conf\SchedulerConfig.class
-com\igt\eInstants\scheduler\job\JobInfo$JobInfoBuilder.class
-com\igt\eInstants\scheduler\job\JobFactory.class
-com\igt\eInstants\scheduler\conf\DataSourceConfig.class
-META-INF\spring-configuration-metadata.json
-com\igt\eInstants\scheduler\job\AbstractJob.class
